@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "planes",
+	"version": "${version}",
+	"name": "Planes",
+	"description": "This is a mod made by Ashis Wadhwani to add planes in minecraft :)",
+	"authors": [
+		"Ashis Wadhwani"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/planes/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.ashis.planes.Planes"
+		],
+		"client": [
+			"net.ashis.planes.PlanesClient"
+		],
+		"fabric-datagen": [
+			"net.ashis.planes.PlanesDataGenerator"
+		]
+	},
+	"mixins": [
+		"planes.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
