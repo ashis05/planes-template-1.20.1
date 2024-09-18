@@ -14,10 +14,10 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+            new Block(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK).sounds(BlockSoundGroup.GLASS)));
 
     public static final Block SAPPHIRE_BLOCK = registerBlock("sapphire_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+            new Block(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK).sounds(BlockSoundGroup.GLASS)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

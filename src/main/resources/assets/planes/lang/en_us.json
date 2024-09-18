@@ -1,6 +1,8 @@
 {
   "item.planes.ruby": "Ruby",
   "item.planes.raw_ruby": "Raw Ruby",
+  "item.planes.sapphire": "Sapphire",
+  "item.planes.raw_sapphire": "Raw Sapphire",
   "block.planes.ruby_block": "Ruby Block",
   "block.planes.sapphire_block": "Sapphire Block",
 

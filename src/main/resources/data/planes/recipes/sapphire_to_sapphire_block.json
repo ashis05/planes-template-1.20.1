@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "planes:sapphire"
+    }
+  },
+  "result": {
+    "item": "planes:sapphire_block"
+  }
+}
