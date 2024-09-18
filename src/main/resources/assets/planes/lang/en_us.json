@@ -5,6 +5,10 @@
   "item.planes.raw_sapphire": "Raw Sapphire",
   "block.planes.ruby_block": "Ruby Block",
   "block.planes.sapphire_block": "Sapphire Block",
+  "block.planes.ruby_ore": "Ruby Ore",
+  "block.planes.sapphire_ore": "Sapphire Ore",
+  "block.planes.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.planes.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
 
   "itemgroup.ruby": "Gems"
 }

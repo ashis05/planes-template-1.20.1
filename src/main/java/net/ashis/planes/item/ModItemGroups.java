@@ -24,6 +24,10 @@ public class ModItemGroups {
                         entries.add(Items.EMERALD_BLOCK);
                         entries.add(ModItems.SAPPHIRE);
                         entries.add(ModItems.RAW_SAPPHIRE);
+                        entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
+                        entries.add(ModBlocks.RUBY_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE);
+                        entries.add(ModBlocks.SAPPHIRE_ORE);
                     }).build());
 
 

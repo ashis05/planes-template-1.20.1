@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "planes:ruby_block",
+    "planes:ruby_ore",
+    "planes:deepslate_ruby_ore",
+    "planes:sapphire_block",
+    "planes:sapphire_ore",
+    "planes:deepslate_sapphire_ore"
+  ]
+}
