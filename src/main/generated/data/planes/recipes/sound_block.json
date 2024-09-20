@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "planes:ruby"
+    },
+    "S": {
+      "item": "planes:sapphire"
+    }
+  },
+  "pattern": [
+    "SRS",
+    "RSR",
+    "SRS"
+  ],
+  "result": {
+    "item": "planes:sound_block"
+  },
+  "show_notification": true
+}

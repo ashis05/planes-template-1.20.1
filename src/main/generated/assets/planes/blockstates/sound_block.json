@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "planes:block/sound_block"
+    }
+  }
+}

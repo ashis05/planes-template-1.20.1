@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 0.7,
+  "group": "ruby",
+  "ingredient": {
+    "item": "planes:ruby_ore"
+  },
+  "result": "planes:raw_ruby"
+}

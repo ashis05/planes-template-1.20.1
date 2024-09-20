@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "R": {
+      "item": "planes:ruby"
+    },
+    "S": {
+      "item": "planes:sapphire"
+    }
+  },
+  "pattern": [
+    " R ",
+    "SDS",
+    " R "
+  ],
+  "result": {
+    "item": "planes:metal_detector"
+  },
+  "show_notification": true
+}

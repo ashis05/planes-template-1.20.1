@@ -1,0 +1,8 @@
+// 1.20.1	2024-09-21T01:17:41.1851529	Planes/Block Loot Tables
+3f1cd2d332b1d979284d2f874f2df0521288d898 data\planes\loot_tables\blocks\sound_block.json
+5eeed91fc7a86159bccab9019ca865d7d1f22df8 data\planes\loot_tables\blocks\deepslate_ruby_ore.json
+b30fd94b4acc0b29d479a179f2854b8ae8abe42e data\planes\loot_tables\blocks\sapphire_block.json
+ee3ae2c9caa62e576591d8f5fdaeb7b506622ae4 data\planes\loot_tables\blocks\sapphire_ore.json
+a53993a86f98a11afce9feb5d68032ad13513857 data\planes\loot_tables\blocks\deepslate_sapphire_ore.json
+6da4ee3b3fe0da673fa09f97979e2b6d91eb4f78 data\planes\loot_tables\blocks\ruby_block.json
+6a5c9218c22a5f222164d2243964fe02b8f4b0af data\planes\loot_tables\blocks\ruby_ore.json

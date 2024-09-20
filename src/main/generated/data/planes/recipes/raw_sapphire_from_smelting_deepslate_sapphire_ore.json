@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 0.7,
+  "group": "ruby",
+  "ingredient": {
+    "item": "planes:deepslate_sapphire_ore"
+  },
+  "result": "planes:raw_sapphire"
+}

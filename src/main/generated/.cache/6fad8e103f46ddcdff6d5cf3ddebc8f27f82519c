@@ -1,0 +1,5 @@
+// 1.20.1	2024-09-21T01:17:41.1821618	Planes/Tags for minecraft:block
+cefeca69ad153902ba62e6e45a27507677dbd3f6 data\minecraft\tags\blocks\needs_diamond_tool.json
+878844a6db6e2d2ef26fd4b7d03507cd0bf7c687 data\minecraft\tags\blocks\mineable\pickaxe.json
+c347affa092a27ac51434cd6ca330e139bfb5ece data\planes\tags\blocks\metal_detector_detectable_blocks.json
+a19e04d16367e60224a617a680890c780744a384 data\minecraft\tags\blocks\needs_iron_tool.json
