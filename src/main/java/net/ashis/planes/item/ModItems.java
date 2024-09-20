@@ -1,6 +1,7 @@
 package net.ashis.planes.item;
 
 import net.ashis.planes.Planes;
+import net.ashis.planes.item.custom.MetalDetectorItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -18,6 +19,11 @@ public class ModItems {
     //SAPPHIRE'S
     public static final Item SAPPHIRE =registerItem("sapphire", new Item(new FabricItemSettings()));
     public static final Item RAW_SAPPHIRE =registerItem("raw_sapphire", new Item(new FabricItemSettings()));
+    //Metal Detector
+    public static final Item METAL_DETECTOR=registerItem("metal_detector",new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
+
+    public static final Item TOMATO = registerItem("tomato", new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
+    public static final Item PETROL = registerItem("petrol", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
         entries.add(RUBY);

@@ -28,6 +28,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RUBY_ORE);
                         entries.add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE);
                         entries.add(ModBlocks.SAPPHIRE_ORE);
+                        entries.add(ModItems.METAL_DETECTOR);
+                        entries.add(ModBlocks.SOUND_BLOCK);
+                        entries.add(ModItems.TOMATO);
+                        entries.add(ModItems.PETROL);
                     }).build());
 
 
