@@ -32,6 +32,12 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SOUND_BLOCK);
                         entries.add(ModItems.TOMATO);
                         entries.add(ModItems.PETROL);
+                        entries.add(ModItems.RUBY_STAFF);
+                        entries.add(ModItems.RUBY_SWORD);
+                        entries.add(ModItems.SAPPHIRE_HELMET);
+                        entries.add(ModItems.SAPPHIRE_CHESTPLATE);
+                        entries.add(ModItems.SAPPHIRE_LEGGINGS);
+                        entries.add(ModItems.SAPPHIRE_BOOTS);
                     }).build());
 
 

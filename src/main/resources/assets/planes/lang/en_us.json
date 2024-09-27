@@ -14,6 +14,12 @@
   "item.planes.tomato": "Tomato",
   "item.planes.petrol": "Petrol",
   "tooltip.planes.metal_detector": "Finds Iron and Copper Underground",
+  "item.planes.ruby_staff": "Ruby Staff",
+  "item.planes.ruby_sword": "Ruby Sword",
+  "item.planes.sapphire_helmet": "Sapphire Helmet",
+  "item.planes.sapphire_chestplate": "Sapphire Chestplate",
+  "item.planes.sapphire_leggings": "Sapphire Leggings",
+  "item.planes.sapphire_boots": "Sapphire Boots",
 
   "itemgroup.ruby": "Gems"
 }

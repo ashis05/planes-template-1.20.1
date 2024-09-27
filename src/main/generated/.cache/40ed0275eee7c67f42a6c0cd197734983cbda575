@@ -1,8 +1,9 @@
-// 1.20.1	2024-09-21T01:17:41.1895242	Planes/Recipes
+// 1.20.1	2024-09-24T01:55:48.2456315	Planes/Recipes
 2ffcc84b007e9a3073dfbde2e99162752878b325 data\planes\advancements\recipes\building_blocks\ruby.json
 8d44050c7d6f14afeb62d7c457b79f83e1ff9f5f data\planes\advancements\recipes\building_blocks\sapphire.json
 02f8357ec15cb5ecf249c815d3c20b235b6b8abb data\planes\recipes\ruby.json
 bc7bd334fea023c5319638f5592bd77e41c21e98 data\planes\advancements\recipes\decorations\ruby_block.json
+0ecace453b854058af793683b90b762b95c2dd61 data\planes\advancements\recipes\misc\ruby_sword.json
 ee42728c8a0eccf4312e652664b49bde152aa58b data\planes\recipes\sapphire_block.json
 f528adc0f7b8654c92f7a778d6d1d1022f30e15c data\planes\recipes\sapphire.json
 01d5393ba45bc94d323a813d55febaf63cbad4ac data\planes\advancements\recipes\decorations\sapphire_block.json
@@ -10,6 +11,7 @@ b5cea98f66c0c2bad3432457d48d00712649eb08 data\planes\advancements\recipes\misc\r
 ffaecba317ad50a5bc64c52d9792539976b52463 data\planes\recipes\sapphire_from_smelting_raw_sapphire.json
 b8bfd09b04f4e89c4e465d96a079b5b3a0048734 data\planes\recipes\raw_sapphire_from_smelting_deepslate_sapphire_ore.json
 26d8e5392adce452bbe97ad27d849b93e7bde219 data\planes\advancements\recipes\misc\raw_sapphire_from_smelting_deepslate_sapphire_ore.json
+972a6d5ab00849cc146ac896b5342fa1f06a0145 data\planes\recipes\ruby_sword.json
 95497aa5fd794e79f85dee8de843cd61cd353998 data\planes\recipes\ruby_from_smelting_raw_ruby.json
 a7b467b51a14a8d2c45b92b28b8ac90019cc9a65 data\planes\advancements\recipes\misc\sapphire_from_smelting_raw_sapphire.json
 28ca0bb04e186b5a7b86dfb23c6a324b8b332694 data\planes\advancements\recipes\misc\metal_detector.json

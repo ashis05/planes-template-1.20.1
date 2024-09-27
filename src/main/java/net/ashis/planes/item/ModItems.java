@@ -1,13 +1,15 @@
 package net.ashis.planes.item;
 
 import net.ashis.planes.Planes;
-import net.ashis.planes.item.custom.MetalDetectorItem;
+import net.ashis.planes.item.custom.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.impl.itemgroup.FabricItemGroup;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
+import net.minecraft.item.SwordItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -24,6 +26,21 @@ public class ModItems {
 
     public static final Item TOMATO = registerItem("tomato", new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
     public static final Item PETROL = registerItem("petrol", new Item(new FabricItemSettings()));
+
+    public static final Item RUBY_STAFF = registerItem("ruby_staff",
+            new Item(new FabricItemSettings().maxCount(1)));
+
+    public static final Item RUBY_SWORD = registerItem("ruby_sword",
+            new RubySwordItem(ModToolMaterial.RUBY, 5, 3f, new FabricItemSettings()));
+
+    public static final Item SAPPHIRE_HELMET = registerItem("sapphire_helmet",
+            new SapphireArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item SAPPHIRE_CHESTPLATE = registerItem("sapphire_chestplate",
+            new SapphireArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item SAPPHIRE_LEGGINGS = registerItem("sapphire_leggings",
+            new SapphireArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item SAPPHIRE_BOOTS = registerItem("sapphire_boots",
+            new SapphireArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
         entries.add(RUBY);

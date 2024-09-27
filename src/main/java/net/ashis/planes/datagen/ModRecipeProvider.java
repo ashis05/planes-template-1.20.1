@@ -38,5 +38,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.METAL_DETECTOR, 1).pattern(" R ").pattern("SDS").pattern(" R ").input('S', ModItems.SAPPHIRE).input('R', ModItems.RUBY).input('D', Items.DIAMOND).criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND)).criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY)).criterion(hasItem(ModItems.SAPPHIRE), conditionsFromItem(ModItems.SAPPHIRE)).offerTo(exporter, new Identifier(getRecipeName(ModItems.METAL_DETECTOR)));
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.SOUND_BLOCK, 1).pattern("SRS").pattern("RSR").pattern("SRS").input('S', ModItems.SAPPHIRE).input('R', ModItems.RUBY).criterion(hasItem(ModItems.SAPPHIRE), conditionsFromItem(ModItems.SAPPHIRE)).criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY)).offerTo(exporter, getRecipeName(ModBlocks.SOUND_BLOCK));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RUBY_SWORD, 1).pattern(" R ").pattern(" R ").pattern(" B ").input('B', Items.BLAZE_ROD).input('R', ModBlocks.RUBY_BLOCK).criterion(hasItem(Items.BLAZE_ROD), conditionsFromItem(Items.BLAZE_ROD)).criterion(hasItem(ModBlocks.RUBY_BLOCK), conditionsFromItem(ModBlocks.RUBY_BLOCK)).offerTo(exporter, getRecipeName(ModItems.RUBY_SWORD));
+
     }
 }
