@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "planes:sapphire_helmet",
+    "planes:sapphire_chestplate",
+    "planes:sapphire_leggings",
+    "planes:sapphire_boots"
+  ]
+}

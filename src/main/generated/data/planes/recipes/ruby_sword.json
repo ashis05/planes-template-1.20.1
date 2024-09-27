@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:blaze_rod"
+    },
+    "R": {
+      "item": "planes:ruby_block"
+    }
+  },
+  "pattern": [
+    " R ",
+    " R ",
+    " B "
+  ],
+  "result": {
+    "item": "planes:ruby_sword"
+  },
+  "show_notification": true
+}
